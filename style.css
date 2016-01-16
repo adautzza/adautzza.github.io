@@ -1,0 +1,200 @@
+.shut {
+  background-color: black;
+  opacity: 0.6;
+  overflow: hidden;
+  max-width: 50%;
+  margin: 35px auto;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 25px;
+  font-size: 40px;
+}
+
+.shut:hover {
+  opacity: 0.9; 
+}
+
+}
+li {
+  padding:20px;
+
+}
+ul {
+    background: black;
+    opacity:0.8;
+    overflow: hidden;
+    max-width: 50%;
+    margin: 35px auto;
+    padding: 20px;
+    list-style-type: none;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+a:link {
+  color: saddlebrown;
+  text-decoration: none;
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px;  
+  text-shadow: 0 1px 1px #fff; 
+}
+a:hover {
+  text-decoration: none;
+  opacity: 1.0;
+color: antiquewhite;
+}
+
+a:visited {
+  color: saddlebrown;
+  text-decoration: none;
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px;  
+  text-shadow: 0 1px 1px #fff; 
+}
+
+body { 
+  background-image: url("rock_music_lover-1920x1080.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 { 
+  color: #ff3300; 
+  font-family: "Great Vibes", cursive; 
+  line-height: 100px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  font-size: 80px;
+  margin-top: 80px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #fff; }
+
+.firstcharacter { 
+  float: left; 
+  color: #223; 
+  font-size: 75px; 
+  line-height: 60px;
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+  font-family: Georgia; }
+
+.firstcharacter:hover {
+  color: antiquewhite;
+}
+p {
+  background: black;
+  opacity:0.7;
+  overflow: hidden;
+  max-width: 50%;
+  margin: 35px auto;
+  padding: 20px;
+  list-style-type: none;
+  border: 2px solid;
+  border-radius: 25px; 
+  color: #232323;
+  font-size: 20px;
+}
+p:hover {
+  opacity: 1.0; 
+  color: antiquewhite;
+}
+
+
+#footer {
+  background:	#ff954d;
+  width:100%;
+  height:38px;
+  position: fixed;
+  bottom:0;
+  left:0;
+  opacity: 0.5;
+  letter-spacing: 2px;
+  padding: 11px;
+}
+
+#footer:hover {
+  opacity: 0.9;
+  background:	#caa8ff;
+}
+
+
+#header {
+  background:		#000000;
+  width:100%;
+  height:45px;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity: 0.9;
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+  -webkit-transition: all 0.3s ease-out; 
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 200;
+}
+@-webkit-keyframes example {
+  from {background-color: black;}
+  to {background-color: #cc7a00;}
+}
+
+
+h1:hover {
+ font-size: 100px;
+  
+}
+
+#left {
+  float: left;
+  text-align:center;
+}
+
+#left.ul {
+  font-size: 20px;
+}
+
+
+h2 {
+
+  color: #ff3300; 
+  font-family: "Great Vibes", cursive; 
+  line-height: 100px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  font-size: 50px;
+  margin-top: 80px; 
+  text-align: center; 
+  text-shadow: 0 2px 8px black; 
+  text-decoration: none;
+  position: relative;
+}
+
+
+h2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff3300;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+
+h2:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(0.6);
+  transform: scaleX(0.6);
+}
+
+
